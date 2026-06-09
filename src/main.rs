@@ -1,9 +1,8 @@
 extern crate core;
 
 use std::io;
-use worldgen_rework::run;
+use terminal_world_generator::run;
 
-//TODO: mozgás a wasd vagy a <^V> val
 fn main() -> io::Result<()> {
     run()
 }

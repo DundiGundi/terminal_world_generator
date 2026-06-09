@@ -503,6 +503,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "terminal_world_generator"
+version = "0.1.0"
+dependencies = [
+ "crossterm",
+ "noise",
+ "rand 0.10.1",
+]
+
+[[package]]
 name = "unicode-ident"
 version = "1.0.24"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -707,15 +716,6 @@ dependencies = [
  "serde_json",
  "unicode-xid",
  "wasmparser",
-]
-
-[[package]]
-name = "worldgen_rework"
-version = "0.1.0"
-dependencies = [
- "crossterm",
- "noise",
- "rand 0.10.1",
 ]
 
 [[package]]

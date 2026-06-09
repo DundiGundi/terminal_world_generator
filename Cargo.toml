@@ -1,5 +1,5 @@
 [package]
-name = "worldgen_rework"
+name = "terminal_world_generator"
 version = "0.1.0"
 edition = "2024"
 
