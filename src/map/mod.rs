@@ -84,6 +84,7 @@ impl Map {
         }
     }
 
+    // TODO: colors.len can be 0 when no circle can be seen
     pub fn average_colors(&self, colors: &Vec<Color>) -> Color {
         let mut color: [u32; 3] = [0, 0, 0];
         let size = colors.len() as u32;
